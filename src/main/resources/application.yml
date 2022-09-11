@@ -1,0 +1,10 @@
+server:
+  port: 9090
+document-api:
+  endpoint: http://localhost:8080/v1/documents
+
+logging:
+  level:
+    root: ERROR
+    org.springframework.web: ERROR
+    com.ep: DEBUG
